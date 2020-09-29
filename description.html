@@ -30,30 +30,76 @@
     <div class="grid-demo grid-demo-bg1">
         <div>
             <fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
-                <legend style="font-size: xx-large">abstract</legend>
+                <legend style="font-size: xx-large">dataset summary</legend>
             </fieldset>
-            <p style="font-size:16px; font-weight:200; line-height: 24px; margin-top: 0px; font-family:Helvetica">
+                The DEAP dataset consists of two parts:
+                <ul>
+                    <li>
+                        The ratings from an online self-assessment where 120 one-minute extracts of
+                        music videos were each rated by 14-16 volunteers based on arousal, valence and dominance.
+                    </li>
+                    <li>
+                        The participant ratings, physiological recordings and face video of an experiment where 32
+                        volunteers watched a subset of 40 of the above music videos. EEG and physiological signals were recorded
+                        and each participant also rated the videos as above. For 22 participants frontal face video was also recorded.
+                    </li>
+                </ul>
 
-                We present a multimodal dataset for the analysis of human affective states.
-                The electroencephalogram (EEG) and peripheral physiological signals of 32 participants were recorded as each watched 40 one-minute long excerpts of music videos.
-                Participants rated each video in terms of the levels of arousal, valence, like/dislike, dominance and familiarity.
-                For 22 of the 32 participants, frontal face video was also recorded. A novel method for stimuli selection was used,
-                utilising retrieval by affective tags from the last.fm website, video highlight detection and an online assessment tool.
-                <br>
-                The dataset is made publicly available and we encourage other researchers to use it for testing their own affective state estimation methods.
-                The dataset was first presented in the following paper:
-            </p>
 
             <fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
-                <legend style="font-size: xx-large">how to use</legend>
+                <legend style="font-size: xx-large">file listing</legend>
             </fieldset>
             <p style="font-size:16px; font-weight:200; line-height: 24px; margin-top: 0px; font-family:Helvetica">
 
-                If you are interested in using this dataset, you will have to print, sign and scan an EULA (End User License Agreement) and return it via email.
-                We will then supply you with a username and password to download the data. Please head on over to the downloads page for more details.
-                <br>
-                Also, please consult the dataset description page for a complete explanation of the dataset.
+                The following files are available (each explained in more detail below):
             </p>
+            <div class="layui-form">
+                <table class="layui-table" lay-even="" lay-skin="nob">
+                    <colgroup>
+                        <col width="150">
+                        <col width="150">
+                        <col width="200">
+                        <col>
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th>File name</th>
+                        <th>Format</th>
+                        <th>Part</th>
+                        <th>Contents</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Online_ratings</td>
+                        <td>xls, csv, ods spreadsheet</td>
+                        <td>Online self-assessment</td>
+                        <td>All  individual ratings from the online self-assessment.</td>
+                    </tr>
+                    <tr>
+                        <td>Video_list</td>
+                        <td>xls, csv, ods spreadsheet</td>
+                        <td>Both parts</td>
+                        <td>Names/YouTube links af the music videos used in the online self-assessment and the experiment + stats of the individual ratings from the online self-assessment.</td>
+                    </tr>
+                    <tr>
+                        <td>Online_ratings</td>
+                        <td>xls, csv, ods spreadsheet</td>
+                        <td>Online self-assessment</td>
+                        <td>All  individual ratings from the online self-assessment.</td>
+                    </tr>
+                    <tr>
+                        <td>Video_list</td>
+                        <td>xls, csv, ods spreadsheet</td>
+                        <td>Both parts</td>
+                        <td>Names/YouTube links af the music videos used in the online self-assessment and the experiment + stats of the individual ratings from the online self-assessment.</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
             <fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
                 <legend style="font-size: xx-large">credits</legend>
             </fieldset>
@@ -85,6 +131,7 @@
 
 <hr style="margin-bottom: 50px">
 <script src="layui/layui.js"></script>
+
 
 </body>
 </html>
