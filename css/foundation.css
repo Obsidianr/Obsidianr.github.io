@@ -3235,7 +3235,9 @@ table.hover tr:nth-of-type(even):hover {
       background: #1893e4; }
 
 .tabs-title {
-  float: left; }
+  float: contour;
+
+}
   .tabs-title > a {
     display: block;
     padding: 1.25rem 1.5rem;
