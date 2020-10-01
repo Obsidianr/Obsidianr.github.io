@@ -6,41 +6,41 @@
     <title>Title</title>
 </head>
 <body>
-<div >
-    <div class="layui-row" style="background: #393D49">
-        <div  style="padding-left: 15%;padding-top: 30px;padding-bottom: 20px">
-            <ul>
-                <li  ><span style="font-size: 300% ;color: #eaeaea;"> Dataset</span></li>
-                <li  ><span style="font-size: medium;color: #eaeaea"> a dataset for emotion analysis using eeg, physiological and video signals</span></li>
-            </ul>
+<div class="layui-row" style="margin-bottom: 30px;background: #2e406e">
+    <div style="background: #2e406e;width: 100%">
+        <div class="layui-row layui-col-md8 layui-col-md-offset2">
+
+            <div  style=";padding-top: 30px;padding-bottom: 50px;display: flex">
+                <div style="margin: 5px">
+                    <div  ><span style="font-size: 300% ;color: #eaeaea;"> Dataset</span></div>
+                    <div  ><span style="font-size: medium;color: #eaeaea"> a dataset for emotion analysis using eeg, physiological and video signals</span></div>
+                </div>
+            </div>
+            <div style="display: flex;float: right">
+                <button type="button" class="layui-btn layui-btn-primary layui-btn-sm" style="background: #9F9F9F">English</button>
+                <button type="button" class="layui-btn layui-btn-primary layui-btn-sm">中文</button>
+            </div>
         </div>
-    </div>
-    <div class="layui-row layui-col-md8 layui-col-md-offset2" style="background: #009688">
+
+        <div  class="layui-row layui-col-md8 layui-col-md-offset2" style="background: #393D49;padding-left: 10%" >
         <div>
             <div>
-                <div style="display: flex;padding: 10px">
-                    <div class="layui-nav-item" style="width: 200px;text-align: center">
-                        <a href="index.html"><span style=";font-size: large;color: black">home</span></a>
-                    </div>
-                    <div class="layui-nav-item "style="width: 400px;text-align: center">
-                        <a href="description.html"><span style="font-size: large">dataset description</span></a>
-                    </div>
-                    <div class="layui-nav-item"style="width: 300px;text-align: center">
-                        <a href="download.html"><span style="font-size: large">download</span></a>
-                    </div>
-                    <div class="layui-nav-item"style="width: 300px;text-align: center">
-                        <a href="contact.html"><span style="font-size: large">contact</span></a>
-                    </div>
+                <div class="layui-nav" style="width: 800px" >
+                    <div class="layui-nav-item" style="background: #2e406e"><a href="index.html"><span style="font-size: x-large;color: #FFFFFF;">home</span></a></div>
+                    <div class="layui-nav-item "><a href="description.html"><span style="font-size: x-large">dataset description</span></a></div>
+                    <div class="layui-nav-item"><a href="download.html"><span style="font-size: x-large">download</span></a></div>
+                    <div class="layui-nav-item"><a href="contact.html"><span style="font-size: x-large">contact</span></a></div>
                 </div>
             </div>
 
         </div>
 
     </div>
+    </div>
 </div>
 
 
-<div class="layui-col-md8 layui-col-md-offset2">
+<div id="home" class="layui-col-md8 layui-col-md-offset2">
     <div class="grid-demo grid-demo-bg1">
         <div class="layui-carousel" id="test1" lay-filter="test1">
             <div carousel-item="">
@@ -54,13 +54,13 @@
             </fieldset>
             <p style="font-size:16px; font-weight:200; line-height: 24px; margin-top: 0px; font-family:Helvetica">
 
-            We present a multimodal dataset for the analysis of human affective states.
+                We present a multimodal dataset for the analysis of human affective states.
                 The electroencephalogram (EEG) and peripheral physiological signals of 32 participants were recorded as each watched 40 one-minute long excerpts of music videos.
                 Participants rated each video in terms of the levels of arousal, valence, like/dislike, dominance and familiarity.
                 For 22 of the 32 participants, frontal face video was also recorded. A novel method for stimuli selection was used,
                 utilising retrieval by affective tags from the last.fm website, video highlight detection and an online assessment tool.
                 <br>
-            The dataset is made publicly available and we encourage other researchers to use it for testing their own affective state estimation methods.
+                The dataset is made publicly available and we encourage other researchers to use it for testing their own affective state estimation methods.
                 The dataset was first presented in the following paper:
             </p>
 
@@ -100,10 +100,6 @@
 
     </div>
 </div>
-
-
-<hr style="margin-bottom: 50px">
-
 
 <script src="layui/layui.js"></script>
 <script>
